@@ -16,12 +16,6 @@ var gajiTransport=transport*25000;
 var gajiMakan=makan*20000;
 var total=gajiLembur+gajiPerhari+gajiTransport+gajiMakan;
 
-
-
-const btnKirim = Document.getElementById('.btn-kirim');
-const btnLoading = Document.getElementById('.btn-loading');
-const myAlert = Document.getElementById('.my-alert');
-
 //ambil id bayar innerHTML adalah sebuah atribut di dalam (objek) elemen HTML yang berisi string HTML.
  //Dengan innerHTML , kita dapat menampilkan output ke elemen yang lebih
 document.getElementById("bayar").innerHTML=total;
